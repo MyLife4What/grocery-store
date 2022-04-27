@@ -13,4 +13,4 @@ class ProductModel(Base):
     quantity = Column(Integer, nullable=False)
 
     def __repr__(self) -> str:
-        return f"<Products: (id={self.id},name={self.product},price={self.price},quantity={self.quantity}>"
+        return f"<Products: (id={self.product_id},name={self.product},price={self.price},quantity={self.quantity}>"

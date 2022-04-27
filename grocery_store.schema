@@ -1,6 +1,6 @@
 -- Schema for course enrollment database
 -- using SQLite data types.
--- To create a database named "sample.db" with this schema use:
+-- To create a database named "grocery_store.db" with this schema use:
 -- sqlite3 sample.db < sample.schema
 
 CREATE TABLE IF NOT EXISTS products (

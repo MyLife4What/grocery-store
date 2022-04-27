@@ -6,7 +6,7 @@ from utils.dao.customer_dao import CustomerDao
 
 class GroceryStore:
 
-    def __init__(self, connection_url="sqlite:///sample.db"):
+    def __init__(self, connection_url="sqlite:///grocery_store.db"):
         engine = create_engine(connection_url)
         session = sessionmaker(bind=engine)
         self.__db_session = session()
