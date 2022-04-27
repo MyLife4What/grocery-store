@@ -1,5 +1,6 @@
 # Grocery Store  
 Grocery store database contains an information of the product in a store and customer that bought a product.  
+
 This is an example of the tables.
 #### Product Table
 | ID | Product | Price | Quantity |
