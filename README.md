@@ -47,6 +47,6 @@ sqlite> .import data/customers.csv customers
 ```
 # Documents
 
-[UML Class Diagram](../../wiki/UML-Class-Diagram)  
-[Domain Model](../../wiki/Domain-Model)  
-[Web Services](../../wiki/Web-Services)
+[UML Class Diagram](../../wiki/Class-Diagram)  
+[Domain Model](../../wiki/Domain-Diagram)  
+[Web Services](../../wiki/Web-Service-API)
