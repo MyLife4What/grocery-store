@@ -6,7 +6,7 @@ class CustomerDao:
     def __init__(self, session: Session):
         self.__session = session
 
-    def get_all_customer(self):
+    def get_all_customers(self):
         return self.__session.query(CustomerModel).all()
 
     def get_customer_by_id(self, id):

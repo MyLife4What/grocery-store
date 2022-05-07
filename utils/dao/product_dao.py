@@ -6,7 +6,7 @@ class ProductDao:
     def __init__(self, session: Session):
         self.__session = session
 
-    def get_all_product(self):
+    def get_all_products(self):
         return self.__session.query(ProductModel).all()
 
     def get_product_by_id(self, id):
