@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS customers (
 ```
 ### 2. Use a schema to create a grocery_store.db.
 ```python
-sqlite3 grocery_store.db < grocery_store.schema
+sqlite3 grocery_store.db --init grocery_store.schema
 ```
 ### 3. Open database file with sql command line.
 ```python
@@ -45,3 +45,8 @@ sqlite> .mode csv
 sqlite> .import data/products.csv products
 sqlite> .import data/customers.csv customers
 ```
+# Documents
+
+[UML Class Diagram](../../wiki/UML-Class-Diagram)  
+[Domain Model](../../wiki/Domain-Model)  
+[Web Services](../../wiki/Web-Services)
